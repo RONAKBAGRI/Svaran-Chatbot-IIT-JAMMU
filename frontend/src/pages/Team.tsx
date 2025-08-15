@@ -53,7 +53,7 @@ const TeamPage: React.FC = () => {
       ],
       linkedin: "https://linkedin.com/in/kunalsharma",
       github: "https://github.com/kunalsharma",
-      email: "kunal.sharma@example.com"
+      email: "2023uma0221@iitjammu.ac.in"
     },
     {
       name: "Sumit Chaudhary",
@@ -66,7 +66,7 @@ const TeamPage: React.FC = () => {
       ],
       linkedin: "https://linkedin.com/in/sumitchaudhary",
       github: "https://github.com/sumitchaudhary",
-      email: "sumit.chaudhary@example.com"
+      email: "2023ume0277@iitjammu.ac.in"
     },
     {
       name: "Krupa Bawane",
@@ -79,7 +79,7 @@ const TeamPage: React.FC = () => {
       ],
       linkedin: "https://linkedin.com/in/krupabawane",
       github: "https://github.com/krupabawane",
-      email: "krupa.bawane@example.com"
+      email: "2023uma0220@iitjammu.ac.in"
     }
   ];
 
