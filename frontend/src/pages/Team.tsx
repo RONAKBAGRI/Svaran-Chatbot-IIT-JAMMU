@@ -40,7 +40,7 @@ const TeamPage: React.FC = () => {
       ],
       linkedin: "https://linkedin.com/in/ronakbagri",
       github: "https://github.com/ronakbagri",
-      email: "ronak.bagri@example.com"
+      email: "ronakbagri9@example.com"
     },
     {
       name: "Kunal Sharma",
