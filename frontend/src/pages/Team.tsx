@@ -1,3 +1,5 @@
+/* Kunal Sharma 2023UMA0221 Mathematics and Computing */
+
 import React from 'react';
 import '../styles/team.css';
 import professorImg from '../assets/1521176440492.jpg';
@@ -8,6 +10,7 @@ import krupaImg from '../assets/WhatsApp Image 2025-04-19 at 14.55.16_b2df5500.j
 
 interface TeamMember {
   name: string;
+  role: string;
   image: string;
   contributions: string[];
   linkedin?: string;
@@ -24,54 +27,59 @@ const TeamPage: React.FC = () => {
   };
 
   const teamMembers: TeamMember[] = [
+
     {
-      name: "Sumit Chaudhary",
-      image: sumitImg,
+      name: "Ronak Bagri",
+      role: "Full Stack Developer",
+      image: ronakImg,
       contributions: [
-        "Model Training",
-        "Rasa Integration",
-        "Dynamic Real Time Data Retreival",
-        "Multilingual Feature"
+        "Backend Development and Integration",
+        "Mobile App Development using ReactNative",
+        "API Integration",
+        "Implement Multilingual Feature"
       ],
-      linkedin: "https://www.linkedin.com/in/sumit-chaudhary-857855281/",
-      github: "https://github.com/git-sumitchaudhary",
-      email: "2023ume0277@iitjammu.ac.in"
+      linkedin: "https://linkedin.com/in/ronakbagri",
+      github: "https://github.com/ronakbagri",
+      email: "ronak.bagri@example.com"
     },
     {
       name: "Kunal Sharma",
+      role: "Frontend Developer",
       image: kunalImg,
       contributions: [
         "Website Frontend Development",
         "React Component Development",
         "UI/UX Design",
       ],
-      linkedin: "https://linkedin.com/in/ks-iitjmu",
-      github: "https://github.com/ks-iitjmu",
-      email: "2023uma0221@iitjammu.ac.in"
+      linkedin: "https://linkedin.com/in/kunalsharma",
+      github: "https://github.com/kunalsharma",
+      email: "kunal.sharma@example.com"
     },
     {
-      name: "Ronak Bagri",
-      image: ronakImg,
+      name: "Sumit Chaudhary",
+      role: "ML Engineer",
+      image: sumitImg,
       contributions: [
-        "Backend Development and Integration",
-        "Mobile App Development using ReactNative",
-        "API Integration",
+        "Model Training",
+        "Rasa Integration",
+        "Algorithm Optimization"
       ],
-      linkedin: "https://linkedin.com/in/ronakbagri",
-      github: "https://github.com/ronakbagri",
-      email: "2023uma0233@iitjammu.ac.in"
+      linkedin: "https://linkedin.com/in/sumitchaudhary",
+      github: "https://github.com/sumitchaudhary",
+      email: "sumit.chaudhary@example.com"
     },
     {
       name: "Krupa Bawane",
+      role: "Data Engineer",
       image: krupaImg,
       contributions: [
         "Data Cleaning",
         "Integration Testing",
         "Documentation"
       ],
-      linkedin: "https://www.linkedin.com/in/krupa-bawane-00285a282/",
-      github: "https://github.com/KrupaBawane",
-      email: "2023uma0220@iitjammu.ac.in"
+      linkedin: "https://linkedin.com/in/krupabawane",
+      github: "https://github.com/krupabawane",
+      email: "krupa.bawane@example.com"
     }
   ];
 
@@ -106,6 +114,7 @@ const TeamPage: React.FC = () => {
               </div>
               <div className="member-info">
                 <h3>{member.name}</h3>
+                <p className="role">{member.role}</p>
                 <div className="contributions">
                   <h4>Contributions:</h4>
                   <ul>
